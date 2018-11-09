@@ -1,5 +1,4 @@
-# mupr_amazing_animaton
-Mupr Animations Projekt.
+# Mupr Animations Projekt.
 
 **BUILD SETUP:**
 
