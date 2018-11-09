@@ -2,7 +2,7 @@
 
 Mupr Animations Projekt.
 
-##BUILD SETUP
+**BUILD SETUP**
 Dieses Setup ist für Arch Linux gedacht.
-###Benötigte Pakete:
+**Benötigte Pakete:**
 rustup, node
