@@ -18,10 +18,10 @@ Im Terminal:
 
 **Path**
 
-~/cargo/bin zum path hizufügen.
+| ~/cargo/bin | zum path hizufügen.
 
 Dazu am Ende der Datei | ~/.bashrc |
  folgendes anfügen.
 
-PATH=$PATH:/home/thomas/.cargo/bin
-export PATH
+| PATH=$PATH:/home/thomas/.cargo/bin
+export PATH |
