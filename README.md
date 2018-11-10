@@ -10,9 +10,11 @@ rustup, node
 
 **Rust SETUP**
 
-rustup default nightly
+Im Terminal:
 
-cargo install wasm-bindgen-cli
+| rustup default nightly |
+
+| cargo install wasm-bindgen-cli |
 
 **Path**
 
