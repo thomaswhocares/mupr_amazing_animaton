@@ -18,7 +18,8 @@ cargo install wasm-bindgen-cli
 
 ~/cargo/bin zum path hizufügen.
 
-Dazu am Ende der Datei ~/.bashrc folgendes anfügen.
+Dazu am Ende der Datei | ~/.bashrc |
+ folgendes anfügen.
 
 PATH=$PATH:/home/thomas/.cargo/bin
 export PATH
