@@ -15,6 +15,7 @@ rustup default nightly
 cargo install wasm-bindgen-cli
 
 **Path**
+
 ~/cargo/bin zum path hizufügen.
 
 Dazu am Ende der Datei ~/.bashrc folgendes anfügen.
