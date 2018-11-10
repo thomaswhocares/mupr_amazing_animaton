@@ -12,16 +12,17 @@ rustup, node
 
 Im Terminal:
 
-| rustup default nightly |
+" rustup default nightly
 
-| cargo install wasm-bindgen-cli |
+ cargo install wasm-bindgen-cli "
 
 **Path**
 
-| ~/cargo/bin | zum path hizufügen.
+" ~/cargo/bin " zum path hizufügen.
 
-Dazu am Ende der Datei | ~/.bashrc |
+Dazu am Ende der Datei " ~/.bashrc "
  folgendes anfügen.
 
-| PATH=$PATH:/home/thomas/.cargo/bin
-export PATH |
+" PATH=$PATH:/home/thomas/.cargo/bin
+
+export PATH "
