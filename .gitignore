@@ -1,2 +1,7 @@
 rust_lib/target
 rust_lib/Cargo.lock
+node/node_modules
+node/dist
+node/package-lock.json
+node/package-lock.json
+wasm_bindgen_output
