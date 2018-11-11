@@ -1,12 +1,13 @@
 extern crate wasm_bindgen;
+
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-extern {
+extern "C" {
     fn alert(s: &str);
 }
 
 #[wasm_bindgen]
 pub fn greet(name: &str) {
-    alert(&format!("DU BIST, {}!", name));
+    alert(&format!("Hello, {}!", name));
 }
