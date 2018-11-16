@@ -26,5 +26,7 @@ echo __Moved WASM and JS to node/src__
 
 cd $NODE_FOLDER_PATH
 #npm install
-npm run serve
+npx webpack
 cd ..
+mv ./node/dist/* /srv/http/wasm/
+mv ./web_root/* /srv/http/wasm/
