@@ -5,9 +5,9 @@
 set -ex
 cd "$(dirname $0)"
 
-cargo build --target wasm32-unknown-unknown
+cargo build --release  --target wasm32-unknown-unknown
 
-wasm-bindgen ./target/wasm32-unknown-unknown/debug/mupr_animation.wasm --out-dir .
+wasm-bindgen ./target/wasm32-unknown-unknown/release/wasm_bindgen_paint.wasm --out-dir .
 
 npm install
 npm run serve

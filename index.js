@@ -1,5 +1,5 @@
 // For more comments about what's going on here, check out the `hello_world`
 // example.
-import('./mupr_animation')
-  .then(mupr_animation => mupr_animation.draw())
+import('./wasm_bindgen_paint')
+  .then(paint => paint.main())
   .catch(console.error);
