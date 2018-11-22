@@ -1,0 +1,21 @@
+[package]
+name = "mupr_animation"
+version = "0.1.0"
+authors = ["thomas steffens"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+js-sys = "*"
+wasm-bindgen = "*"
+
+[dependencies.web-sys]
+version = "0.3.4"
+features = [
+  'CanvasRenderingContext2d',
+  'Document',
+  'Element',
+  'HtmlCanvasElement',
+  'Window',
+]

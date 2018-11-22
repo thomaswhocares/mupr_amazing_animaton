@@ -1,0 +1,8 @@
+package-lock.json
+canvas.js
+*_bg.js
+*_bg.wasm
+*d.ts
+node_modules/*
+target/*
+Cargo.lock
