@@ -1,1 +1,5 @@
-# mupr_amazing_animaton
+# Web Assebly - Beispiel - Mupr
+
+```
+$ ./build.sh
+```
